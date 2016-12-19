@@ -7,5 +7,5 @@ jQuery('.GridTimeline .js-follow-btn > span.follow-text').each(function(i, ele) 
     }
     setTimeout(function() {
         ele.click();
-    }, __cnt__++ * 500);
+    }, __cnt__++ * 100);
 });
